@@ -1,1 +1,2 @@
-console.log("Vận Tải Phong Khánh website loaded");
+// Kiểm tra website đã tải JavaScript thành công
+console.log("Website Vận Tải Phong Khánh đã tải thành công");
