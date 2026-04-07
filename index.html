@@ -2,105 +2,352 @@
 <html lang="vi">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vận Tải Phong Khánh</title>
-
-    <!-- Mô tả ngắn để hỗ trợ SEO -->
-    <meta name="description" content="Dịch vụ vận tải uy tín, nhanh chóng, an toàn - Vận Tải Phong Khánh" />
-
-    <!-- Kết nối file CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vận Tải Phong Khánh</title>
+  <meta name="description"
+    content="Nhà xe Phong Khánh chuyên tuyến Than Uyên - Tân Uyên - Sapa - Cao tốc Nội Bài - Bến xe Mỹ Đình và ngược lại. Liên hệ nhanh, hỗ trợ đặt xe và gửi hàng thuận tiện." />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <!-- ===== HEADER ===== -->
-    <header class="site-header">
-        <div class="container header-wrap">
-            <h1 class="logo">Phong Khánh</h1>
-        </div>
-    </header>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="logo" href="#top" aria-label="Về đầu trang">
+        <img src="./assets/images/logo.svg" alt="Vận Tải Phong Khánh" />
+      </a>
 
-    <!-- ===== HERO ===== -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false" aria-controls="mainNav"
+        type="button">
+        ☰
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#dich-vu">Dịch vụ</a>
+        <a href="#tuyen-duong">Tuyến chính</a>
+        <a href="#hinh-anh">Hình ảnh</a>
+        <a href="#feedback">Phản hồi</a>
+        <a href="#lien-he">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
     <section class="hero">
-        <div class="container">
-            <h2>Vận Tải Nhanh - Uy Tín - An Toàn</h2>
+      <div class="hero-overlay"></div>
 
-            <p>
-                Chuyên cung cấp dịch vụ vận tải hành khách và hàng hóa,
-                phục vụ tận tâm, đúng giờ, giá hợp lý.
-            </p>
+      <div class="container hero-content">
+        <p class="hero-subtitle">NHÀ XE PHONG KHÁNH</p>
+
+        <h1 class="hero-title">
+          Tuyến Than Uyên - Tân Uyên - Sapa - Cao tốc Nội Bài - Gia Lâm - Bến xe Mỹ Đình
+        </h1>
+
+        <p class="hero-desc">
+          Tuyến cố định từ Than Uyên đi Hà Nội và ngược lại. Chạy cao tốc, hỗ trợ tư vấn nhanh,
+          nhận gửi hàng thuận tiện, dễ liên hệ khi cần hỏi chuyến hoặc gửi đồ cho người thân.
+        </p>
+        <p class="hero-desc">
+          <b>Trụ sở công ty: SN 573 Điện Biên Phủ, Khu 5B Xã Than Uyên, Tỉnh Lai Châu </b>
+        </p>
+        <div class="hero-tags">
+          <a href="tel:0961262728" class="hero-hotline">📞 0961 262728</a>
+          <a href="tel:0967262728" class="hero-hotline">📞 0967 262728</a>
         </div>
+
+        <div class="hero-points">
+          <span>Đi đúng tuyến</span>
+          <span>Chạy cao tốc</span>
+          <span>Nhận gửi hàng</span>
+          <span>Tư vấn nhanh</span>
+        </div>
+      </div>
     </section>
 
-    <!-- ===== GIỚI THIỆU ===== -->
-    <section class="about">
-        <div class="container">
-            <h2>Về Vận Tải Phong Khánh</h2>
-
-            <p>
-                Vận Tải Phong Khánh chuyên cung cấp dịch vụ vận chuyển hành khách
-                và hàng hóa với tiêu chí nhanh chóng, an toàn và đúng giờ.
-            </p>
+    <section class="trust-strip" aria-label="Điểm nổi bật">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <strong>1 tuyến cố định</strong>
+          <span>Dễ nhớ, dễ chọn</span>
         </div>
+
+        <div class="trust-item">
+          <strong>Liên hệ nhanh</strong>
+          <span>Gọi là có người hỗ trợ</span>
+        </div>
+
+        <div class="trust-item">
+          <strong>Nhận gửi hàng</strong>
+          <span>Thuận tiện dọc tuyến</span>
+        </div>
+
+        <div class="trust-item">
+          <strong>Đi cao tốc</strong>
+          <span>Tiết kiệm thời gian</span>
+        </div>
+      </div>
     </section>
 
-    <!-- ===== DỊCH VỤ ===== -->
-    <section class="services">
-        <div class="container">
-            <h2>Dịch vụ</h2>
+    <section class="section about" id="gioi-thieu">
+      <div class="container section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Về nhà xe</p>
+          <h2>Đi đúng tuyến, liên hệ dễ, hỗ trợ thật</h2>
+        </div>
 
-            <div class="service-list">
-                <div class="service-card">
-                    <h3>Chở khách</h3>
-                    <p>Đưa đón đúng giờ, xe sạch sẽ, tài xế kinh nghiệm.</p>
-                </div>
+        <div class="about-layout">
+          <div class="about-image">
+            <img src="./assets/images/banner.webp" alt="Nhà xe Phong Khánh" />
+          </div>
 
-                <div class="service-card">
-                    <h3>Gửi hàng</h3>
-                    <p>Nhận gửi hàng nhanh, an toàn, giá hợp lý.</p>
-                </div>
+          <div class="about-content">
+            <p>
+              Nhà xe Phong Khánh chuyên phục vụ tuyến <b>Than Uyên - Tân Uyên - Sapa - Cao tốc Nội Bài - Gia Lâm - Bến
+                xe Mỹ Đình
+                và chiều ngược lại </b>. Tuyến rõ ràng, thuận tiện cho khách đi Hà Nội, đi Sapa hoặc gửi hàng dọc tuyến.
+            </p>
 
-                <div class="service-card">
-                    <h3>Hợp đồng xe</h3>
-                    <p>Nhận hợp đồng xe theo yêu cầu cá nhân và doanh nghiệp.</p>
-                </div>
+            <p>
+              Đây là lựa chọn phù hợp cho khách cần một nhà xe dễ liên hệ, dễ hỏi thông tin, có thể xử lý nhanh cả nhu
+              cầu
+              đi xe lẫn gửi hàng.
+            </p>
+
+            <ul class="about-list">
+              <li>Toàn bộ xe được trang bị nội thất tiện nghi, êm ái</li>
+              <li>Chạy cao tốc, rút ngắn thời gian di chuyển</li>
+              <li>Luôn phục vụ nước uống và Wi‑Fi trên xe</li>
+              <li>Phù hợp cho khách đi Hà Nội, đi Sapa và người gửi hàng dọc tuyến</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="dich-vu">
+      <div class="container section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Dịch vụ chính</p>
+          <h2>Không chỉ chở khách, còn hỗ trợ hàng hóa và liên hệ nhanh</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="card service-card">
+            <h3>Đặt xe nhanh</h3>
+            <p>
+              Gọi trực tiếp để được tư vấn nhanh về tuyến, thời gian và điểm đón trả phù hợp.
+            </p>
+          </article>
+
+          <article class="card service-card">
+            <h3>Gửi hàng thuận tiện</h3>
+            <p>
+              Nhận gửi hàng dọc tuyến Than Uyên - Tân Uyên - Sapa - Hà Nội, liên hệ rõ ràng và thuận tiện.
+            </p>
+          </article>
+
+          <article class="card service-card">
+            <h3>Hỗ trợ linh hoạt</h3>
+            <p>
+              Phù hợp cho khách đi học, đi làm, đi khám, đi công việc hoặc gửi đồ cho người thân.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section route-main" id="tuyen-duong">
+      <div class="container section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Tuyến chính</p>
+          <h2>Tuyến cố định dễ nhớ, dễ liên hệ</h2>
+        </div>
+
+        <div class="route-main-box">
+          <div class="route-main-overlay"></div>
+
+          <div class="route-main-content">
+            <h3 class="route-title">
+              <span>Than Uyên - Tân Uyên - Sapa</span>
+              <span>Cao tốc Nội Bài - Bến xe Mỹ Đình</span>
+            </h3>
+
+            <p class="route-line">
+              Chiều đi và chiều về rõ ràng, thuận tiện cho khách di chuyển giữa Lai Châu - Sapa - Hà Nội.
+            </p>
+
+            <ul class="route-benefits">
+              <li>Tuyến cố định, đúng nhu cầu khách đang tìm</li>
+              <li>Chạy cao tốc, tiết kiệm thời gian</li>
+              <li>Hỗ trợ khách đi xe và gửi hàng</li>
+            </ul>
+
+            <div class="route-actions">
+              <a href="tel:0961262728" class="route-btn route-btn-call">Gọi đặt xe</a>
+              <a href="https://www.facebook.com/chamsocbantunggiacngu" target="_blank" rel="noopener noreferrer"
+                class="route-btn route-btn-fb">
+                Xem Facebook
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- ===== LIÊN HỆ ===== -->
-    <section class="contact">
-        <div class="container">
-            <h2>Liên hệ</h2>
-            <p>Hotline: 0900000000</p>
-            <p>Facebook: Vận Tải Phong Khánh</p>
+    <section class="section gallery" id="hinh-anh">
+      <div class="container section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Hình ảnh thực tế</p>
+          <h2>Hình ảnh nhà xe và hành trình</h2>
         </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-item-large">
+            <img src="./assets/images/img3.webp" alt="Xe Phong Khánh" />
+          </div>
+
+          <div class="gallery-item">
+            <img src="./assets/images/img2.webp" alt="Khoang xe Phong Khánh" />
+          </div>
+
+          <div class="gallery-item">
+            <img src="./assets/images/img4.webp" alt="Hành trình tuyến xe Phong Khánh" />
+          </div>
+
+          <div class="gallery-item">
+            <img src="./assets/images/img1.webp" alt="Đón trả khách Phong Khánh" />
+          </div>
+
+          <div class="gallery-item">
+            <img src="./assets/images/img5.webp" alt="Gửi hàng nhà xe Phong Khánh" />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-        <div class="container">
-            <p>© Vận Tải Phong Khánh</p>
+    <section class="section feedback" id="feedback">
+      <div class="container section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Khách hàng nói gì</p>
+          <h2>Những phản hồi giúp khách mới yên tâm hơn</h2>
         </div>
-    </footer>
 
-    <!-- ===== NÚT NỔI GÓC PHẢI ===== -->
-    <div class="floating-buttons">
-        <!-- Nút gọi điện -->
-        <a href="tel:0900000000" class="float-btn call-btn" aria-label="Gọi tổng đài">
-            📞
-        </a>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Khách đi Hà Nội</h3>
+            <p>
+              “Liên hệ nhanh, tư vấn rõ ràng, dễ hỏi thông tin. Phù hợp cho ai cần đi đúng tuyến.”
+            </p>
+          </article>
 
-        <!-- Nút mở Facebook -->
-        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" class="float-btn fb-btn"
-            aria-label="Mở Facebook">
-            f
-        </a>
+          <article class="card">
+            <h3>Khách gửi hàng</h3>
+            <p>
+              “Gửi hàng thuận tiện, gọi điện trao đổi nhanh, đỡ mất công tìm nhiều chỗ.”
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Khách đi Sapa</h3>
+            <p>
+              “Tuyến rõ ràng nên dễ chọn, không bị rối thông tin như nhiều nơi khác.”
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reasons">
+      <div class="container section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Lý do lựa chọn</p>
+          <h2>Những giá trị Phong Khánh luôn hướng tới</h2>
+        </div>
+
+        <div class="reason-grid">
+          <div class="card reason-card">Uy tín</div>
+          <div class="card reason-card">Đúng tuyến</div>
+          <div class="card reason-card">Hỗ trợ nhanh</div>
+          <div class="card reason-card">Giá hợp lý</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="lien-he">
+    <div class="container footer-grid">
+      <div class="footer-col footer-company">
+        <h3>Vận Tải Phong Khánh</h3>
+
+        <p class="footer-text">
+          Chuyên tuyến Than Uyên - Tân Uyên - Sapa - Cao tốc Nội Bài - Bến xe Mỹ Đình và chiều ngược lại.
+        </p>
+
+        <ul class="footer-contact">
+          <li>Trụ sở: SN 573 Điện Biên Phủ, Khu 5B Xã Than Uyên, Tỉnh Lai Châu</li>
+          <li>
+            <a href="https://www.facebook.com/chamsocbantunggiacngu" target="_blank" rel="noopener noreferrer">
+              Facebook: Nhà Xe Phong Khánh
+            </a>
+          </li>
+          <li>Email: ...</li>
+          <li>📦 Nhận gửi hàng dọc tuyến</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Khách hàng</h4>
+        <ul class="footer-links">
+          <li><a href="#tuyen-duong">Tuyến chính</a></li>
+          <li><a href="#dich-vu">Dịch vụ</a></li>
+          <li><a href="tel:0961262728">Liên hệ đặt xe</a></li>
+          <li><a href="tel:0967262728">Liên hệ gửi hàng</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Nhà xe</h4>
+        <ul class="footer-links">
+          <li><a href="#gioi-thieu">Giới thiệu</a></li>
+          <li><a href="#feedback">Phản hồi khách hàng</a></li>
+          <li><a href="#tuyen-duong">Lộ trình hoạt động</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Liên hệ với chúng tôi</h4>
+        <ul class="footer-links">
+          <li>📞 Hotline 1: <a href="tel:0961262728">0961 262728</a></li>
+          <li>📞 Hotline 2: <a href="tel:0967262728">0967 262728</a></li>
+          <li>
+            <a href="https://www.facebook.com/chamsocbantunggiacngu" target="_blank" rel="noopener noreferrer">
+              Facebook nhà xe
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <!-- Kết nối file JavaScript -->
-    <script src="./assets/js/main.js"></script>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© Vận Tải Phong Khánh. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="floating-buttons">
+    <a href="tel:0961262728" class="float-btn call-btn" aria-label="Gọi tổng đài" title="Gọi tổng đài">
+      📞
+    </a>
+
+    <a href="https://www.facebook.com/chamsocbantunggiacngu" target="_blank" rel="noopener noreferrer"
+      class="float-btn fb-btn" aria-label="Mở Facebook" title="Mở Facebook">
+      f
+    </a>
+  </div>
+
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
